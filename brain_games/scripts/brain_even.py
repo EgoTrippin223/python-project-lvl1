@@ -37,4 +37,4 @@ def main():
                 f"is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {user_name}!"
             )
         else:
-            return f"is wrong answer ;(.\nLet's try again, {user_name}!"
+            return f"{user_answer} is wrong answer ;(.\nLet's try again, {user_name}!"
