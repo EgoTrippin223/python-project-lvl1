@@ -4,6 +4,7 @@ import operator
 
 
 def expression():
+
     print("Welcome to the Brain Games!")
     user_name = prompt.string("May I have your name? ")
     print("What is the result of the expression?")
