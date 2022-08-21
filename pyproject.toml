@@ -13,6 +13,7 @@ authors = ["Даниил Филимошин <filimoshin03@inbox.ru>"]
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
 brain-calc = "brain_games.scripts.games.brain_calc:expression"
+brain-gcd = "brain_games.scripts.games.brain_gcd:gcd"
 
 [tool.poetry.dependencies]
 python = "^3.8"
