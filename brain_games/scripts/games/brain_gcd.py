@@ -1,15 +1,17 @@
 import prompt
 import random
 import math
+from brain_games.scripts.brain_games import greet
 
 
 def gcd():
-    print("Welcome to the Brain Games!")
-    user_name = prompt.string("May i have your name? ")
+    greet()
+    name = prompt.string("May I have your name ? ")
+    print(f"Hello, {name}")
     print("Find the greatest common divisor of given numbers.")
     index = 0
     winscore = 3
-    congrats = f"Congratulations, {user_name}"
+    congrats = f"Congratulations, {name}"
     while index < winscore:
         index += 1
         num1 = random.randint(21, 99)

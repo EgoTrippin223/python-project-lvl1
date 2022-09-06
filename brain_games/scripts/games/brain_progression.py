@@ -5,6 +5,7 @@ import random
 def progression():
     print("Welcome to the Brain Games!")
     user_name = prompt.string("May i have your name? ")
+    print(f"Hello, {user_name}!")
     print("What number is missing in the progression?")
     index = 0
     winscore = 3
