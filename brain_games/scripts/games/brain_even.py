@@ -5,9 +5,10 @@ import prompt
 from random import randint
 
 
-def main():
+def is_even():
     index = 0
     winscore = 3
+    greeting()
     while index < winscore:
         number = randint(1, 100)
         print("Question:", number)
@@ -23,6 +24,4 @@ def main():
                 f"{user_answer} is wrong answer :(. Correct answer was, {correct_answer}"
             )
             break
-
-
-main()
+is_even()
