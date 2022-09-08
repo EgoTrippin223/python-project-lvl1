@@ -1,6 +1,5 @@
-#!/usr/bin/env/python
-from logic_even import greeting
-from logic_even import even
+from brain_games.scripts.logic import greeting
+from brain_games.scripts.logic import even
 import prompt
 from random import randint
 
@@ -9,6 +8,7 @@ def is_even():
     index = 0
     winscore = 3
     greeting()
+    print("Answer 'yes' if the number is even, otherwise answer 'no' ")
     while index < winscore:
         number = randint(1, 100)
         print("Question:", number)
@@ -24,4 +24,3 @@ def is_even():
                 f"{user_answer} is wrong answer :(. Correct answer was, {correct_answer}"
             )
             break
-is_even()

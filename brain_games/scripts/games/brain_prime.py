@@ -1,11 +1,11 @@
 from random import randint
 import prompt
-from logic_prime import is_prime
-from logic_prime import greeting_prime
+from brain_games.scripts.logic import is_prime
+from brain_games.scripts.logic import greeting
 
 
 def prime():
-    greeting_prime()
+    greeting()
     index = 0
     winscore = 3
     while index != winscore:
@@ -25,3 +25,4 @@ def prime():
             break
     else:
         return 0
+

@@ -1,15 +1,12 @@
 import prompt
 import random
-
+from brain_games.scripts.logic import greeting
 
 def progression():
-    print("Welcome to the Brain Games!")
-    user_name = prompt.string("May i have your name? ")
-    print(f"Hello, {user_name}!")
+    greeting()
     print("What number is missing in the progression?")
     index = 0
     winscore = 3
-    congrats = f"Congratulations, {user_name}!"
     while index < winscore:
         index += 1
         numbers = []
@@ -28,7 +25,7 @@ def progression():
         if str(user_answer) == str(correct_answer):
             print("Correct!")
             if index == winscore:
-                print(congrats)
+                print('Congratulation')
         else:
             print(
                 f"{user_answer} is wrong answer ;(.\nCorrect answer was,",

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import prompt
 
-# from brain_games.scripts.cli import welcome_user
+from brain_games.scripts.cli import welcome_user
 
 
 def greet():
