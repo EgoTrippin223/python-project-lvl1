@@ -1,5 +1,5 @@
 import prompt
-
+import math
 
 def greeting():
     print("Welcome to the Brain Games!")
@@ -26,6 +26,5 @@ def loop_function(function):
     for i in range(3):
         function()
 
-def user_question(quest):
-    print("Question:", quest)
+def user_question(user_answer):
     user_answer = prompt.string("Your answer: ")

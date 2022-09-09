@@ -25,4 +25,3 @@ def prime():
             break
     else:
         return 0
-

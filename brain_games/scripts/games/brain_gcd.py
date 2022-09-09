@@ -2,6 +2,8 @@ import prompt
 import random
 import math
 from brain_games.scripts.logic import greeting
+from brain_games.scripts.logic import loop_function
+from brain_games.scripts.logic import user_question
 
 
 def gcd():
@@ -23,7 +25,7 @@ def gcd():
                 print('Congratulation')
         else:
             print(
-                f"{user_answer} is wrong answer ;(.\nCorrect answer was,",
+                f"{user_answer}, is wrong answer ;(.\nCorrect answer was,",
                 correct_answer,
             )
             break
