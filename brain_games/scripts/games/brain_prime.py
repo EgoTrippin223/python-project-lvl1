@@ -1,7 +1,6 @@
 from random import randint
 import prompt
-from brain_games.scripts.logic import is_prime
-from brain_games.scripts.logic import greeting
+from brain_games.scripts.logic import is_prime, congratulation, check_answer, greeting
 
 
 def prime():
@@ -9,19 +8,14 @@ def prime():
     index = 0
     winscore = 3
     while index != winscore:
+        index += 1
         number = randint(2, 100)
         correct_answer = is_prime(number)
         print(f"Question: {number}")
         user_answer = prompt.string(f"Your answer: ")
-        if user_answer.lower() == correct_answer:
-            print("Correct!")
-            index += 1
-            if index == winscore:
-                print("Congratulations!")
-        else:
-            print(
-                f"{user_answer}, is wrong answer, correct answer was {correct_answer}"
-            )
+        check_answer(user_answer, correct_answer)
+        if index == winscore:
+            congratulation()
+        if user_answer != correct_answer:
             break
-    else:
-        return 0
+prime()

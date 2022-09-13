@@ -1,9 +1,7 @@
 import prompt
 import random
 import math
-from brain_games.scripts.logic import greeting
-from brain_games.scripts.logic import loop_function
-from brain_games.scripts.logic import user_question
+from brain_games.scripts.logic import greeting, check_answer, congratulation
 
 
 def gcd():
@@ -19,13 +17,6 @@ def gcd():
         correct_answer = math.gcd(num1, num2)
         print("Question", quest)
         user_answer = prompt.string("Your answer: ")
-        if user_answer == str(correct_answer):
-            print("Correct!")
-            if index == winscore:
-                print('Congratulation')
-        else:
-            print(
-                f"{user_answer}, is wrong answer ;(.\nCorrect answer was,",
-                correct_answer,
-            )
-            break
+        check_answer(user_answer, correct_answer)
+        if index == winscore:congratulation()
+gcd()

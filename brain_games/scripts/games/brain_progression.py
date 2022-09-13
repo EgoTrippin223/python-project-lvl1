@@ -1,6 +1,6 @@
 import prompt
 import random
-from brain_games.scripts.logic import greeting
+from brain_games.scripts.logic import greeting, check_answer, congratulation
 
 def progression():
     greeting()
@@ -10,9 +10,9 @@ def progression():
     while index < winscore:
         index += 1
         numbers = []
-        num1 = random.randint(1, 2)
-        num2 = random.randint(15, 20)
-        n = random.randint(2, 3)
+        num1 = random.randint(1, 5)
+        num2 = random.randint(15, 25)
+        n = random.randint(1, 3)
         for i in range(num1, num2, n):
             numbers.append(i)
         numbers.sort
@@ -22,13 +22,9 @@ def progression():
         question = " ".join(map(str, numbers))
         print("Question:", question)
         user_answer = prompt.string("Your answer: ")
-        if str(user_answer) == str(correct_answer):
-            print("Correct!")
-            if index == winscore:
-                print('Congratulation')
-        else:
-            print(
-                f"{user_answer} is wrong answer ;(.\nCorrect answer was,",
-                correct_answer,
-            )
+        check_answer(user_answer, numbers[".."])
+        if index == winscore:
+                congratulation()
+        if user_answer != question:
             break
+progression()
