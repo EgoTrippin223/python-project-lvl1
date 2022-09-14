@@ -1,35 +1,23 @@
-from brain_games.scripts.logic import greeting, check_answer, congratulation
-
+from brain_test import greeting, congratulation
+from calc_logic import *
 import prompt
-import random
-import operator
 
 
 def expression():
     greeting()
-    print('What is the result of the expression?')
+    print(BRAIN_CALC)
     index = 0
     winscore = 3
     while index != winscore:
         index += 1
-        operator = ["-", "+", "*"]
-        op = random.choice(operator)
-        num1 = random.randint(10, 30)
-        num2 = random.randint(1, 10)
-        quest = f"{num1} {op} {num2}"
-        print("Question:", quest)
+        quest = calc()
+        print("Question: ", quest)
         user_answer = prompt.string("Your answer: ")
-        if "+" == op:
-            quest = str(num1 + num2)
-        if "-" == op:
-            quest = str(num1 - num2)
-        if "*" == op:
-            quest = str(num1 * num2)
-        check_answer(user_answer, quest)
-        if index == winscore:
-            congratulation()
-        if user_answer != quest:
-            break
+        if user_answer == quest:
+            print('Correct!')
+            if index == winscore:
+                congratulation()
+
             
         
 
