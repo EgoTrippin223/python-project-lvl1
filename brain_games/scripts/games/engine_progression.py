@@ -1,6 +1,6 @@
 import prompt, random
-from brain_test import greeting
-from progression_logic import *
+from brain_games.scripts.brain_test import greeting
+from brain_games.scripts.progression_logic import *
 
 
 def brain_prog():
