@@ -1,6 +1,6 @@
-from brain_games.games.brain_engine import brain_engine
-from brain_games.prime import get_question_and_answer
-from brain_games.prime import BRAIN_TASK
+from brain_games.brain_engine import brain_engine
+from brain_games.games.prime import get_question_and_answer
+from brain_games.games.prime import BRAIN_TASK
 
 
 

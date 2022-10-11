@@ -1,6 +1,6 @@
-from brain_games.games.brain_engine import brain_engine
-from brain_games.progression import get_question_and_answer
-from brain_games.progression import BRAIN_TASK
+from brain_games.brain_engine import brain_engine
+from brain_games.games.progression import get_question_and_answer
+from brain_games.games.progression import BRAIN_TASK
 
 
 
