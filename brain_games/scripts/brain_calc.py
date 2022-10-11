@@ -1,5 +1,5 @@
-from brain_games.calc_game import BRAIN_TASK
-from brain_games.calc_game import get_question_and_answer
+from brain_games.calc import BRAIN_TASK
+from brain_games.calc import get_question_and_answer
 from brain_games.games.brain_engine import *
 
 
