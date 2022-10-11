@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 import prompt
-from brain_games.scripts.logic import greeting, check_answer
-from brain_games.scripts.games.brain_calc import expression
-from brain_games.scripts.cli import welcome_user
+
 
 user_name = ""
 
