@@ -1,5 +1,4 @@
 import prompt
-from brain_games.brain_test import greeting
 
 
 def brain_engine(question_and_answer, BRAIN_TASK):
