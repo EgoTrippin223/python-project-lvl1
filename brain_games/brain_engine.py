@@ -3,7 +3,9 @@ from brain_games.brain_test import greeting
 
 
 def brain_engine(question_and_answer, BRAIN_TASK):
-    user_name = greeting()
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}!')
     print(BRAIN_TASK)
     index = 0
     winscore = 3
@@ -15,7 +17,7 @@ def brain_engine(question_and_answer, BRAIN_TASK):
         if user_answer == str(correct_answer):
             print('Correct!')
             if index == winscore:
-                print(f"Congratulations, {user_name}")
+                print(f"Congratulations, {name}")
         else:
-            print(f"{user_answer}, is wrong answer :(. Correct answer was {correct_answer}.\nLet's try again, {user_name}")
+            print(f"{user_answer}, is wrong answer :(. Correct answer was {correct_answer}.\nLet's try again, {name}")
             break
