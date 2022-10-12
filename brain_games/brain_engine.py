@@ -19,5 +19,5 @@ def brain_engine(BRAIN_TASK, question_and_answer):
             if index == ITERATIONS_NUMBER:
                 print(f"Congratulations, {name}!")
         else:
-            print(f"{user_answer}, is wrong answer :(. Correct answer was {correct_answer}.\nLet's try again, {name}")
+            print(f"{user_answer}, is wrong answer :(. Correct answer was {correct_answer}.\nLet's try again, {name}!")
             break
