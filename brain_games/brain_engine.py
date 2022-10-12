@@ -3,7 +3,7 @@ import prompt
 ITERATIONS_NUMBER = 3 #кол-во вопросов игры
 MAX_VALUE = 100
 
-def brain_engine(BRAIN_TASK, question_and_answer):
+def brain_engine(question_and_answer, BRAIN_TASK):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
