@@ -12,7 +12,7 @@ def brain_engine(question_and_answer, BRAIN_TASK):
     while index < ITERATIONS_NUMBER:
         index += 1
         (question, correct_answer) = question_and_answer()
-        print('Question', question)
+        print('Question:', question)
         user_answer = prompt.string('Your answer: ')
         if user_answer == str(correct_answer):
             print('Correct!')
