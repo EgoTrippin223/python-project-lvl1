@@ -1,8 +1,7 @@
 import random, operator
 
 
-BRAIN_TASK = 'What is the result of the expression?'
-
+BRAIN_TASK = "What is the result of the expression?"
 
 
 def get_question_and_answer():

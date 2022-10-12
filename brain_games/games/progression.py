@@ -1,7 +1,8 @@
 import random
 
 
-BRAIN_TASK = 'What number is missing in the progression ?'
+BRAIN_TASK = "What number is missing in the progression ?"
+
 
 def get_question_and_answer():
     numbers = []

@@ -5,6 +5,7 @@ import random
 
 BRAIN_TASK = "Find the greatest common divisor of given numbers."
 
+
 def get_question_and_answer():
     num1 = random.randint(21, 99)
     num2 = random.randint(25, 63)
