@@ -1,6 +1,6 @@
 from brain_games.games.calc import BRAIN_TASK
 from brain_games.games.calc import get_question_and_answer
-from brain_games.brain_engine import *
+from brain_games.brain_engine import brain_engine
 
 
 def main():

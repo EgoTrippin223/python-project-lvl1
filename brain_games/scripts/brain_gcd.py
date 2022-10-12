@@ -1,4 +1,4 @@
-from brain_games.brain_engine import *
+from brain_games.brain_engine import brain_engine
 from brain_games.games.gcd import get_question_and_answer
 from brain_games.games.gcd import BRAIN_TASK
 
