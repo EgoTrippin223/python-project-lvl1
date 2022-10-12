@@ -1,5 +1,5 @@
 from random import randint
-
+from brain_games.brain_engine import MAX_VALUE
 
 
 BRAIN_TASK = "Answer 'yes' if the number is even, otherwise answer 'no' "
