@@ -2,7 +2,7 @@
 packages = [
   { include = "brain_games" },
 ]
-repository = "https://github.com/EgoTrippin223/python-project-lvl1.git"
+repository = "https://github.com/EgoTrippin223/python-project-lvl1"
 classifiers = [
     "Topic :: Software Development :: Build Tools",
     "Topic :: Software Development :: Libraries :: Python Modules"
