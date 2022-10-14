@@ -10,5 +10,6 @@ def get_question_and_answer():
     question_and_answer = (rand, is_even(rand) and "yes" or "no")
     return question_and_answer
 
+
 def is_even(number):
     return number % 2 == 0
