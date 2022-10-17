@@ -1,14 +1,17 @@
-from random import randint
+import random
+from brain_games.brain_engine import MAX_VALUE
 
 BRAIN_TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def get_question_and_answer():
-    num = randint(2, 100)
-    question = num
-    correct_answer = "yes"
-    for i in range(2, int(num ** 0.5) + 1):
-        if num % i == 0:
-            correct_answer = "no"
-            break
-    return question, correct_answer
+    num = random.randint(2, MAX_VALUE)
+    question_and_answer = (num, is_prime(num) and "yes" or "no")
+    return question_and_answer
+
+def is_prime(number):
+    for i in range(2, int(number ** 0.5) + 1):
+        if number % i == 0:
+            return False
+    return True
+
