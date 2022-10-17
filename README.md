@@ -24,3 +24,7 @@ brain-prime - Определение простого числа
 
 Demo:
 <script id="asciicast-529231" src="https://asciinema.org/a/529231.js" async></script>
+<script id="asciicast-529234" src="https://asciinema.org/a/529234.js" async></script>
+<script id="asciicast-529237" src="https://asciinema.org/a/529237.js" async></script>
+<script id="asciicast-529236" src="https://asciinema.org/a/529236.js" async></script>
+<script id="asciicast-529235" src="https://asciinema.org/a/529235.js" async></script>
