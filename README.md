@@ -23,4 +23,4 @@ brain-prime - Определение простого числа
 <a href="https://codeclimate.com/github/EgoTrippin223/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/5c6400bfeabe6ca90175/maintainability" /></a>
 
 Demo:
-https://asciinema.org/a/515770
+<script id="asciicast-515770" src="https://asciinema.org/a/515770.js" async></script>
