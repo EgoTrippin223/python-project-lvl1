@@ -23,8 +23,8 @@ brain-prime - Определение простого числа
 <a href="https://codeclimate.com/github/EgoTrippin223/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/5c6400bfeabe6ca90175/maintainability" /></a>
 
 Demo:
-<script id="asciicast-529231" src="https://asciinema.org/a/529231.js" async></script>
-<script id="asciicast-529234" src="https://asciinema.org/a/529234.js" async></script>
-<script id="asciicast-529237" src="https://asciinema.org/a/529237.js" async></script>
-<script id="asciicast-529236" src="https://asciinema.org/a/529236.js" async></script>
-<script id="asciicast-529235" src="https://asciinema.org/a/529235.js" async></script>
+[![asciicast](https://asciinema.org/a/529237.svg)](https://asciinema.org/a/529237)
+[![asciicast](https://asciinema.org/a/529231.svg)](https://asciinema.org/a/529231)
+[![asciicast](https://asciinema.org/a/529235.svg)](https://asciinema.org/a/529235)
+[![asciicast](https://asciinema.org/a/529234.svg)](https://asciinema.org/a/529234)
+[![asciicast](https://asciinema.org/a/529236.svg)](https://asciinema.org/a/529236)
