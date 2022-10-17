@@ -19,4 +19,5 @@ brain-progression - Поиск пропущенных чисел в послед
 brain-prime - Определение простого числа
 
 DEMO:
+
 <script id="asciicast-529231" src="https://asciinema.org/a/529231.js" async></script>
