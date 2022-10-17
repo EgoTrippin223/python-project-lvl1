@@ -17,6 +17,3 @@ brain-calc - Калькулятор
 brain-gcd - Определение наибольшего общего делителя
 brain-progression - Поиск пропущенных чисел в последовательности
 brain-prime - Определение простого числа
-
-Demo:
-<script id="asciicast-529231" src="https://asciinema.org/a/529231.js" async></script>

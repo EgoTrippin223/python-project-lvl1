@@ -21,3 +21,6 @@ brain-prime - Определение простого числа
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/EgoTrippin223/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/EgoTrippin223/python-project-lvl1/actions)
 <a href="https://codeclimate.com/github/EgoTrippin223/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/5c6400bfeabe6ca90175/maintainability" /></a>
+
+Demo:
+<script id="asciicast-529231" src="https://asciinema.org/a/529231.js" async></script>
