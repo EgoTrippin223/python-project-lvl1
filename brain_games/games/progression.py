@@ -15,5 +15,5 @@ def get_question_and_answer():
     index_x = numbers.index(correct_answer)
     numbers[index_x] = ".."
     question = " ".join(map(str, numbers))
-    question_and_answer = (correct_answer, question)
+    question_and_answer = (question, correct_answer)
     return question_and_answer
