@@ -8,7 +8,8 @@ SECOND_NUM = random.randint(1, 10)
 def get_question_and_answer():
     operation = ["-", "+", "*"]
     op = random.choice(operation)
-    
+    FIRST_NUM
+    SECOND_NUM
     question = f"{FIRST_NUM} {op} {SECOND_NUM}"
     if "+" == op:
         correct_answer = str(FIRST_NUM + SECOND_NUM)
