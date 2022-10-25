@@ -1,5 +1,4 @@
 import random
-from brain_games.brain_engine import MAX_VALUE
 
 
 RULES = "What number is missing in the progression ?"
