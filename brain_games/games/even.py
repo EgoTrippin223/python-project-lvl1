@@ -2,7 +2,7 @@ import random
 from brain_games.brain_engine import MAX_VALUE
 
 
-BRAIN_TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
+RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def get_question_and_answer():

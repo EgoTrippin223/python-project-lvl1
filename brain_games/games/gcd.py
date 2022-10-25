@@ -2,7 +2,7 @@ from random import randint
 import math
 
 
-BRAIN_TASK = "Find the greatest common divisor of given numbers."
+RULES = "Find the greatest common divisor of given numbers."
 
 
 def get_question_and_answer():

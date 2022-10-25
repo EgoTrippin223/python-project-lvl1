@@ -4,11 +4,11 @@ ITERATIONS_NUMBER = 3  # кол-во вопросов игры
 MAX_VALUE = 100
 
 
-def start_game(BRAIN_TASK, question_and_answer):
+def start_game(RULES, question_and_answer):
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print(f"Hello, {name}!")
-    print(BRAIN_TASK)
+    print(RULES)
     index = 0
     while index < ITERATIONS_NUMBER:
         index += 1

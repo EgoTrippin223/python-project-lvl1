@@ -4,7 +4,7 @@ from brain_games.brain_engine import MAX_VALUE
 MIN_LENGTH = 5
 MAX_LENGT = 10
 STEP = 10
-BRAIN_TASK = "What number is missing in the progression ?"
+RULES = "What number is missing in the progression ?"
 
 
 def get_question_and_answer():
