@@ -12,4 +12,7 @@ def get_question_and_answer():
 
 
 def is_even(number):
-    return number % 2 == 0
+    if number % 2 == 0:
+        return "yes"
+    else:
+        return "no"
