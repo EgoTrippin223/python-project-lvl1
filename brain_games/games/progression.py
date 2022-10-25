@@ -11,7 +11,9 @@ def get_question_and_answer():
     STEP = 10
     for i in range(MIN_LENGTH, MAX_LENGT, STEP):
         numbers.append(i)
-    index_x = numbers.index(question_and_answer)
+    answer = random.choice(numbers)
+    index_x = numbers.index(answer)
     numbers[index_x] = ".."
-    question_and_answer = " ".join(map(str, numbers)), random.choice(numbers)
+    question = " ".join(map(str, numbers))
+    question_and_answer = (question, answer)
     return question_and_answer
