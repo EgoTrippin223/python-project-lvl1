@@ -4,6 +4,7 @@ from brain_games.brain_engine import MAX_VALUE
 
 RULES = "What number is missing in the progression ?"
 
+
 def get_question_and_answer():
     numbers = []
     FIRST_NUM = random.randint(1, 5)
