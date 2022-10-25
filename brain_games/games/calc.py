@@ -7,13 +7,13 @@ RULES = "What is the result of the expression?"
 def get_question_and_answer():
     operation = ["-", "+", "*"]
     op = random.choice(operation)
-    num1 = random.randint(10, 30)
-    num2 = random.randint(1, 10)
-    question = f"{num1} {op} {num2}"
+    FIRST_NUM = random.randint(10, 30)
+    SECOND_NUM = random.randint(1, 10)
+    question = f"{FIRST_NUM} {op} {SECOND_NUM}"
     if "+" == op:
-        correct_answer = str(num1 + num2)
+        correct_answer = str(FIRST_NUM + SECOND_NUM)
     if "*" == op:
-        correct_answer = str(num1 * num2)
+        correct_answer = str(FIRST_NUM * SECOND_NUM)
     if "-" == op:
-        correct_answer = str(num1 - num2)
+        correct_answer = str(FIRST_NUM - SECOND_NUM)
     return question, correct_answer
