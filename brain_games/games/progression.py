@@ -12,14 +12,10 @@ def prog():
     return progression
 
 
-def progression_question():
+def get_question_and_answer():
     progression = prog()
     correct_answer = random.choice(progression)
     index_x = progression.index(correct_answer)
     progression[index_x] = ".."
     question = " ".join(map(str, progression))
     return question, correct_answer
-
-def get_question_and_answer():
-    question_and_answer = progression_question()
-    return question_and_answer
