@@ -4,7 +4,7 @@ import random
 RULES = "What number is missing in the progression ?"
 
 
-def prog():
+def sequence():
     FIRST_NUM = random.randint(1, 5)
     SECOND_NUM = random.randint(30, 35)
     STEP = random.randint(2, 3)
@@ -13,7 +13,7 @@ def prog():
 
 
 def get_question_and_answer():
-    progression = prog()
+    progression = sequence()
     correct_answer = random.choice(progression)
     index_x = progression.index(correct_answer)
     progression[index_x] = ".."
