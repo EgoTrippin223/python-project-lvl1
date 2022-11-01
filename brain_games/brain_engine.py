@@ -4,7 +4,7 @@ ITERATIONS_NUMBER = 3  # кол-во вопросов игры
 MAX_VALUE = 100
 
 
-def start_game(game):
+def run_game(game):
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print(f"Hello, {name}!")
