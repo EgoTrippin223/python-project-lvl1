@@ -6,6 +6,7 @@ RULES = "What is the result of the expression?"
 MAX_VALUE_FIRST_NUM = 20
 MAX_VALUE_SECOND_NUM = 10
 
+
 def get_question_and_answer():
     operation = ["-", "+", "*"]
     op = random.choice(operation)
