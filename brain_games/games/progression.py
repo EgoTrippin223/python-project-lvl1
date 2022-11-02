@@ -1,13 +1,20 @@
 import random
+from random import randint
 
 
 RULES = "What number is missing in the progression ?"
+MIN_FIRST_MEMBER_OF_SEQUENCE = 1
+MAX_FIRST_MEMBER_OF_SEQUENCE = 5
+MIN_SECOND_MEMBER_OF_SEQUENCE = 30
+MAX_SECOND_MEMBER_OF_SEQUENCE = 35
+MIN_VALUE_STEP = 2
+MAX_VALUE_STEP = 3
 
 
 def sequence():
-    FIRST_NUM = random.randint(1, 5)
-    SECOND_NUM = random.randint(30, 35)
-    STEP = random.randint(2, 3)
+    FIRST_NUM = randint(MIN_FIRST_MEMBER_OF_SEQUENCE, MAX_FIRST_MEMBER_OF_SEQUENCE)
+    SECOND_NUM = randint(MIN_SECOND_MEMBER_OF_SEQUENCE, MAX_SECOND_MEMBER_OF_SEQUENCE)
+    STEP = randint(MIN_VALUE_STEP, MAX_VALUE_STEP)
     progression = list(range(FIRST_NUM, SECOND_NUM, STEP))
     return progression
 
