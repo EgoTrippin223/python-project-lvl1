@@ -11,7 +11,7 @@ def get_question_and_answer():
 
 
 def answer(number):
-    if is_prime(number) == True:
+    if is_prime(number) is True:
         return "yes"
     else:
         return "no"
