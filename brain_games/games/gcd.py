@@ -6,9 +6,9 @@ RULES = "Find the greatest common divisor of given numbers."
 
 
 def get_question_and_answer():
-    num1 = randint(21, 99)
-    num2 = randint(25, 63)
-    question_and_answer = (f"{num1} {num2}", str(gcd(num1, num2)))
+    NUM1 = randint(21, 99)
+    NUM2 = randint(25, 63)
+    question_and_answer = (f"{NUM1} {NUM2}", str(gcd(NUM1, NUM2)))
     return question_and_answer
 
 
