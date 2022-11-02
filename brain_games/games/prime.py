@@ -6,8 +6,15 @@ RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def get_question_and_answer():
     NUM = random.randint(2, MAX_VALUE)
-    question_and_answer = (NUM, is_prime(NUM) and "yes" or "no")
+    question_and_answer = (NUM, answer(NUM))
     return question_and_answer
+
+
+def answer(number):
+    if is_prime(number) == True:
+        return "yes"
+    else:
+        return "no"
 
 
 def is_prime(number):
