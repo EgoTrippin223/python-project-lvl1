@@ -10,9 +10,9 @@ MIN_VALUE_SECOND_NUM = 25
 
 
 def get_question_and_answer():
-    NUM1 = randint(MIN_VALUE_FIRST_NUM, MAX_VALUE_FIRST_NUM)
-    NUM2 = randint(MIN_VALUE_SECOND_NUM, MAX_VALUE_SECOND_NUM)
-    question_and_answer = (f"{NUM1} {NUM2}", str(gcd(NUM1, NUM2)))
+    num_1 = randint(MIN_VALUE_FIRST_NUM, MAX_VALUE_FIRST_NUM)
+    num_2 = randint(MIN_VALUE_SECOND_NUM, MAX_VALUE_SECOND_NUM)
+    question_and_answer = (f"{num_1} {num_2}", str(gcd(num_1, num_2)))
     return question_and_answer
 
 
