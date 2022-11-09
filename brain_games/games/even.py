@@ -6,8 +6,8 @@ RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def get_question_and_answer():
-    NUM = random.randint(0, MAX_VALUE)
-    question_and_answer = (NUM, answer(NUM))
+    num = random.randint(0, MAX_VALUE)
+    question_and_answer = (num, answer(num))
     return question_and_answer
 
 
