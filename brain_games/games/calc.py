@@ -10,13 +10,13 @@ MAX_VALUE_SECOND_NUM = 10
 def get_question_and_answer():
     operation = ["-", "+", "*"]
     op = random.choice(operation)
-    FIRST_NUM = randint(0, MAX_VALUE_FIRST_NUM)
-    SECOND_NUM = randint(1, MAX_VALUE_SECOND_NUM)
-    question = f"{FIRST_NUM} {op} {SECOND_NUM}"
+    first_num = randint(0, MAX_VALUE_FIRST_NUM)
+    second_num = randint(1, MAX_VALUE_SECOND_NUM)
+    question = f"{first_num} {op} {second_num}"
     if "+" == op:
-        correct_answer = str(FIRST_NUM + SECOND_NUM)
+        correct_answer = str(first_num + second_num)
     if "*" == op:
-        correct_answer = str(FIRST_NUM * SECOND_NUM)
+        correct_answer = str(first_num * second_num)
     if "-" == op:
-        correct_answer = str(FIRST_NUM - SECOND_NUM)
+        correct_answer = str(first_num - second_num)
     return question, correct_answer
